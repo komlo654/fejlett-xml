@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<season xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="feladat_6.xsd"
-        year="2020">
+<season year="2020">
    <races count="17">
       <race round="1" name="Austrian Grand Prix">
          <position number="1" points="25" fastest_lap="1:07.657">
