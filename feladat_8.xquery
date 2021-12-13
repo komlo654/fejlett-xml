@@ -16,7 +16,7 @@ let $distancefromhungary := map:merge(for $race in $file/RaceTable/Race return m
 
 let $xml :=  <RaceTable>
     {for $key in map:keys($distancefromhungary) order by  map:get($distancefromhungary, $key) descending return <race racename="{$key}" distance="{map:get($distancefromhungary, $key)}">
-        {for $race in $file/RaceTable/Race where $race/RaceName = $key return <winner number="{for $result in $race/ResultsList/Result where $result[@position = 1] return xs:integer($result/@number)}">{for $result in $race/ResultsList/Result where $result[@position = 1] return $result/Driver/GivenName//text() || ' ' || $result/Driver/FamilyName//text()}</winner>}
+        {for $race in $file/RaceTable/Race where $race/RaceName = $key return <winner number="{xs:integer($race/ResultsList/Result[@position = 1]/@number)}">{$race/ResultsList/Result[@position = 1]/Driver/GivenName//text() || ' ' || $race/ResultsList/Result[@position = 1]/Driver/FamilyName//text()}</winner>}
     </race> }
 </RaceTable>
 
