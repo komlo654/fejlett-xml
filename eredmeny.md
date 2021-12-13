@@ -2088,7 +2088,3 @@ declare function local:generate-html() {
 local:generate-html()
 
 ```
-**Eredmény:**
-```json
-17
-```
