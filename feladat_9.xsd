@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="drivers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="driver" type="driverType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="driverType">
+        <xs:sequence>
+            <xs:element name="status" type="statusType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="number" type="xs:integer"></xs:attribute>
+        <xs:attribute name="code">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:length value="3"></xs:length>
+                    <xs:pattern value="[A-Z]{3}"></xs:pattern>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="statusType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="count" type="xs:integer"></xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>

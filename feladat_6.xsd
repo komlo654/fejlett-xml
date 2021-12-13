@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+    <xs:element name="season">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="races" type="racesType" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute name="year" type="xs:integer"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="racesType">
+        <xs:sequence>
+            <xs:element name="race" type="raceType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="count" type="xs:integer"></xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="raceType">
+        <xs:sequence>
+            <xs:element name="position" type="positionType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="round" type="xs:integer"></xs:attribute>
+        <xs:attribute name="name" type="xs:string"></xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="positionType">
+        <xs:sequence>
+            <xs:element name="driver" type="driverType"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="number" type="xs:integer"></xs:attribute>
+        <xs:attribute name="points" type="xs:integer"></xs:attribute>
+        <xs:attribute name="fastest_lap">
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:length value="8"></xs:length>
+                    <xs:pattern value="[0-9]:[0-5][0-9].[0-9]{3}"></xs:pattern>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="driverType">
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"></xs:element>
+            <xs:element name="dateofbirth" type="xs:date"></xs:element>
+            <xs:element name="nationality" type="xs:string"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="number" type="xs:integer"></xs:attribute>
+    </xs:complexType>
+</xs:schema>

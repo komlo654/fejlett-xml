@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<drivers>
+   <driver number="3" code="RIC">
+      <status count="12">Finished</status>
+      <status count="4">+1 Lap</status>
+      <status count="1">Overheating</status>
+   </driver>
+   <driver number="4" code="NOR">
+      <status count="12">Finished</status>
+      <status count="4">+1 Lap</status>
+      <status count="1">Power Unit</status>
+   </driver>
+   <driver number="5" code="VET">
+      <status count="9">Finished</status>
+      <status count="6">+1 Lap</status>
+      <status count="1">Brakes</status>
+      <status count="1">Collision damage</status>
+   </driver>
+   <driver number="6" code="LAT">
+      <status count="6">Finished</status>
+      <status count="4">+1 Lap</status>
+      <status count="3">+2 Laps</status>
+      <status count="1">Engine</status>
+      <status count="1">+5 Laps</status>
+      <status count="1">Collision</status>
+      <status count="1">Collision damage</status>
+   </driver>
+   <driver number="7" code="RAI">
+      <status count="10">+1 Lap</status>
+      <status count="6">Finished</status>
+      <status count="1">Wheel</status>
+   </driver>
+   <driver number="8" code="GRO">
+      <status count="6">Finished</status>
+      <status count="5">+1 Lap</status>
+      <status count="1">Brakes</status>
+      <status count="1">+2 Laps</status>
+      <status count="1">Collision</status>
+      <status count="1">Collision damage</status>
+   </driver>
+   <driver number="10" code="GAS">
+      <status count="10">Finished</status>
+      <status count="4">+1 Lap</status>
+      <status count="1">Engine</status>
+      <status count="1">Water pressure</status>
+      <status count="1">Collision</status>
+   </driver>
+   <driver number="11" code="PER">
+      <status count="10">Finished</status>
+      <status count="3">+1 Lap</status>
+      <status count="1">Engine</status>
+      <status count="1">Transmission</status>
+   </driver>
+   <driver number="16" code="LEC">
+      <status count="10">Finished</status>
+      <status count="3">+1 Lap</status>
+      <status count="1">Accident</status>
+      <status count="1">Collision</status>
+      <status count="1">Electronics</status>
+      <status count="1">Collision damage</status>
+   </driver>
+   <driver number="18" code="STR">
+      <status count="10">Finished</status>
+      <status count="2">Collision</status>
+      <status count="1">+1 Lap</status>
+      <status count="1">Engine</status>
+      <status count="1">Puncture</status>
+      <status count="1">Collision damage</status>
+   </driver>
+   <driver number="20" code="MAG">
+      <status count="7">+1 Lap</status>
+      <status count="3">Finished</status>
+      <status count="2">Collision</status>
+      <status count="1">Illness</status>
+      <status count="1">Withdrew</status>
+      <status count="1">Brakes</status>
+      <status count="1">Retired</status>
+      <status count="1">Power Unit</status>
+   </driver>
+   <driver number="23" code="ALB">
+      <status count="13">Finished</status>
+      <status count="2">+1 Lap</status>
+      <status count="1">Radiator</status>
+      <status count="1">Electronics</status>
+   </driver>
+   <driver number="26" code="KVY">
+      <status count="8">Finished</status>
+      <status count="6">+1 Lap</status>
+      <status count="1">Accident</status>
+      <status count="1">+2 Laps</status>
+      <status count="1">Suspension</status>
+   </driver>
+   <driver number="27" code="HUL">
+      <status count="2">Finished</status>
+      <status count="1">Power Unit</status>
+   </driver>
+   <driver number="31" code="OCO">
+      <status count="9">Finished</status>
+      <status count="4">+1 Lap</status>
+      <status count="2">Gearbox</status>
+      <status count="1">Brakes</status>
+      <status count="1">Overheating</status>
+   </driver>
+   <driver number="33" code="VER">
+      <status count="12">Finished</status>
+      <status count="1">Puncture</status>
+      <status count="1">Accident</status>
+      <status count="1">Collision</status>
+      <status count="1">Electronics</status>
+      <status count="1">Power Unit</status>
+   </driver>
+   <driver number="44" code="HAM">
+      <status count="16">Finished</status>
+   </driver>
+   <driver number="51" code="FIT">
+      <status count="1">+2 Laps</status>
+      <status count="1">Finished</status>
+   </driver>
+   <driver number="55" code="SAI">
+      <status count="10">Finished</status>
+      <status count="4">+1 Lap</status>
+      <status count="1">Exhaust</status>
+      <status count="1">Accident</status>
+      <status count="1">Collision</status>
+   </driver>
+   <driver number="63" code="RUS">
+      <status count="8">+1 Lap</status>
+      <status count="4">Finished</status>
+      <status count="1">Fuel pressure</status>
+      <status count="1">Accident</status>
+      <status count="1">+2 Laps</status>
+      <status count="1">Collision</status>
+      <status count="1">Debris</status>
+   </driver>
+   <driver number="77" code="BOT">
+      <status count="15">Finished</status>
+      <status count="1">+1 Lap</status>
+      <status count="1">Power Unit</status>
+   </driver>
+   <driver number="89" code="AIT">
+      <status count="1">Finished</status>
+   </driver>
+   <driver number="99" code="GIO">
+      <status count="8">+1 Lap</status>
+      <status count="6">Finished</status>
+      <status count="1">Accident</status>
+      <status count="1">Collision</status>
+      <status count="1">Gearbox</status>
+   </driver>
+</drivers>

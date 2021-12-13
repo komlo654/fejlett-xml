@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RaceTable>
+   <race racename="Abu Dhabi Grand Prix" distance="35.3545">
+      <winner number="33">Max Verstappen</winner>
+   </race>
+   <race racename="Bahrain Grand Prix" distance="31.262">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+   <race racename="Sakhir Grand Prix" distance="31.262">
+      <winner number="11">Sergio Pérez</winner>
+   </race>
+   <race racename="Portuguese Grand Prix" distance="27.8753">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+   <race racename="Russian Grand Prix" distance="20.7092">
+      <winner number="77">Valtteri Bottas</winner>
+   </race>
+   <race racename="British Grand Prix" distance="20.26554">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+   <race racename="70th Anniversary Grand Prix" distance="20.26554">
+      <winner number="33">Max Verstappen</winner>
+   </race>
+   <race racename="Spanish Grand Prix" distance="16.98749">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+   <race racename="Belgian Grand Prix" distance="13.27721">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+   <race racename="Eifel Grand Prix" distance="12.3011">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+   <race racename="Turkish Grand Prix" distance="10.1564">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+   <race racename="Italian Grand Prix" distance="9.96749">
+      <winner number="10">Pierre Gasly</winner>
+   </race>
+   <race racename="Tuscan Grand Prix" distance="7.8767">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+   <race racename="Emilia Romagna Grand Prix" distance="7.5319">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+   <race racename="Styrian Grand Prix" distance="4.4839">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+   <race racename="Austrian Grand Prix" distance="4.4839">
+      <winner number="77">Valtteri Bottas</winner>
+   </race>
+   <race racename="Hungarian Grand Prix" distance="0">
+      <winner number="44">Lewis Hamilton</winner>
+   </race>
+</RaceTable>

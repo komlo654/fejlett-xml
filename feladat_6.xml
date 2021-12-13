@@ -1,0 +1,1231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<season xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="feladat_6.xsd"
+        year="2020">
+   <races count="17">
+      <race round="1" name="Austrian Grand Prix">
+         <position number="1" points="25" fastest_lap="1:07.657">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:07.901">
+            <driver number="16">
+               <name>Charles Leclerc</name>
+               <dateofbirth>1997-10-16</dateofbirth>
+               <nationality>Monegasque</nationality>
+            </driver>
+         </position>
+         <position number="3" points="16" fastest_lap="1:07.475">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:07.712">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:07.974">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:08.305">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:09.025">
+            <driver number="10">
+               <name>Pierre Gasly</name>
+               <dateofbirth>1996-02-07</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:08.932">
+            <driver number="31">
+               <name>Esteban Ocon</name>
+               <dateofbirth>1996-09-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:08.796">
+            <driver number="99">
+               <name>Antonio Giovinazzi</name>
+               <dateofbirth>1993-12-14</dateofbirth>
+               <nationality>Italian</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:08.623">
+            <driver number="5">
+               <name>Sebastian Vettel</name>
+               <dateofbirth>1987-07-03</dateofbirth>
+               <nationality>German</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="2" name="Styrian Grand Prix">
+         <position number="1" points="25" fastest_lap="1:06.719">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:07.534">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:06.145">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:07.299">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:07.193">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:07.188">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:07.833">
+            <driver number="18">
+               <name>Lance Stroll</name>
+               <dateofbirth>1998-10-29</dateofbirth>
+               <nationality>Canadian</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:07.832">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="9" points="3" fastest_lap="1:05.619">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:08.378">
+            <driver number="26">
+               <name>Daniil Kvyat</name>
+               <dateofbirth>1994-04-26</dateofbirth>
+               <nationality>Russian</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="3" name="Hungarian Grand Prix">
+         <position number="1" points="26" fastest_lap="1:16.627">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:19.184">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:17.665">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:18.973">
+            <driver number="18">
+               <name>Lance Stroll</name>
+               <dateofbirth>1998-10-29</dateofbirth>
+               <nationality>Canadian</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:19.440">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:20.363">
+            <driver number="5">
+               <name>Sebastian Vettel</name>
+               <dateofbirth>1987-07-03</dateofbirth>
+               <nationality>German</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:20.090">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:19.532">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:20.477">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:19.457">
+            <driver number="20">
+               <name>Kevin Magnussen</name>
+               <dateofbirth>1992-10-05</dateofbirth>
+               <nationality>Danish</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="4" name="British Grand Prix">
+         <position number="1" points="25" fastest_lap="1:29.238">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="19" fastest_lap="1:27.097">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:29.813">
+            <driver number="16">
+               <name>Charles Leclerc</name>
+               <dateofbirth>1997-10-16</dateofbirth>
+               <nationality>Monegasque</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:29.482">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:30.058">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:29.491">
+            <driver number="31">
+               <name>Esteban Ocon</name>
+               <dateofbirth>1996-09-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:29.603">
+            <driver number="10">
+               <name>Pierre Gasly</name>
+               <dateofbirth>1996-02-07</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:28.689">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:30.475">
+            <driver number="18">
+               <name>Lance Stroll</name>
+               <dateofbirth>1998-10-29</dateofbirth>
+               <nationality>Canadian</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:30.537">
+            <driver number="5">
+               <name>Sebastian Vettel</name>
+               <dateofbirth>1987-07-03</dateofbirth>
+               <nationality>German</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="5" name="70th Anniversary Grand Prix">
+         <position number="1" points="25" fastest_lap="1:29.465">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="2" points="19" fastest_lap="1:28.451">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:29.765">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:30.552">
+            <driver number="16">
+               <name>Charles Leclerc</name>
+               <dateofbirth>1997-10-16</dateofbirth>
+               <nationality>Monegasque</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:29.477">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:30.877">
+            <driver number="18">
+               <name>Lance Stroll</name>
+               <dateofbirth>1998-10-29</dateofbirth>
+               <nationality>Canadian</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:30.087">
+            <driver number="27">
+               <name>Nico Hülkenberg</name>
+               <dateofbirth>1987-08-19</dateofbirth>
+               <nationality>German</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:30.575">
+            <driver number="31">
+               <name>Esteban Ocon</name>
+               <dateofbirth>1996-09-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:30.698">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:30.738">
+            <driver number="26">
+               <name>Daniil Kvyat</name>
+               <dateofbirth>1994-04-26</dateofbirth>
+               <nationality>Russian</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="6" name="Spanish Grand Prix">
+         <position number="1" points="25" fastest_lap="1:19.822">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:21.477">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="3" points="16" fastest_lap="1:18.183">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:22.024">
+            <driver number="18">
+               <name>Lance Stroll</name>
+               <dateofbirth>1998-10-29</dateofbirth>
+               <nationality>Canadian</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:22.515">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:21.771">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:22.707">
+            <driver number="5">
+               <name>Sebastian Vettel</name>
+               <dateofbirth>1987-07-03</dateofbirth>
+               <nationality>German</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:22.194">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:22.543">
+            <driver number="10">
+               <name>Pierre Gasly</name>
+               <dateofbirth>1996-02-07</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:22.392">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="7" name="Belgian Grand Prix">
+         <position number="1" points="25" fastest_lap="1:47.758">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:47.983">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:48.305">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="4" points="13" fastest_lap="1:47.483">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:48.540">
+            <driver number="31">
+               <name>Esteban Ocon</name>
+               <dateofbirth>1996-09-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:48.736">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:48.552">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:47.839">
+            <driver number="10">
+               <name>Pierre Gasly</name>
+               <dateofbirth>1996-02-07</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:49.136">
+            <driver number="18">
+               <name>Lance Stroll</name>
+               <dateofbirth>1998-10-29</dateofbirth>
+               <nationality>Canadian</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:48.389">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="8" name="Italian Grand Prix">
+         <position number="1" points="25" fastest_lap="1:24.037">
+            <driver number="10">
+               <name>Pierre Gasly</name>
+               <dateofbirth>1996-02-07</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:23.882">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:23.897">
+            <driver number="18">
+               <name>Lance Stroll</name>
+               <dateofbirth>1998-10-29</dateofbirth>
+               <nationality>Canadian</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:24.232">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:23.961">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:23.898">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="7" points="7" fastest_lap="1:22.746">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:24.490">
+            <driver number="31">
+               <name>Esteban Ocon</name>
+               <dateofbirth>1996-09-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:24.479">
+            <driver number="26">
+               <name>Daniil Kvyat</name>
+               <dateofbirth>1994-04-26</dateofbirth>
+               <nationality>Russian</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:24.336">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="9" name="Tuscan Grand Prix">
+         <position number="1" points="26" fastest_lap="1:18.833">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:19.432">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:20.039">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:20.426">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:20.632">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:21.198">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:21.458">
+            <driver number="26">
+               <name>Daniil Kvyat</name>
+               <dateofbirth>1994-04-26</dateofbirth>
+               <nationality>Russian</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:21.229">
+            <driver number="16">
+               <name>Charles Leclerc</name>
+               <dateofbirth>1997-10-16</dateofbirth>
+               <nationality>Monegasque</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:21.164">
+            <driver number="7">
+               <name>Kimi Räikkönen</name>
+               <dateofbirth>1979-10-17</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:21.202">
+            <driver number="5">
+               <name>Sebastian Vettel</name>
+               <dateofbirth>1987-07-03</dateofbirth>
+               <nationality>German</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="10" name="Russian Grand Prix">
+         <position number="1" points="26" fastest_lap="1:37.030">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:37.332">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:38.075">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:38.141">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:37.886">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:39.053">
+            <driver number="16">
+               <name>Charles Leclerc</name>
+               <dateofbirth>1997-10-16</dateofbirth>
+               <nationality>Monegasque</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:39.216">
+            <driver number="31">
+               <name>Esteban Ocon</name>
+               <dateofbirth>1996-09-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:39.133">
+            <driver number="26">
+               <name>Daniil Kvyat</name>
+               <dateofbirth>1994-04-26</dateofbirth>
+               <nationality>Russian</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:37.231">
+            <driver number="10">
+               <name>Pierre Gasly</name>
+               <dateofbirth>1996-02-07</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:38.377">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="11" name="Eifel Grand Prix">
+         <position number="1" points="25" fastest_lap="1:28.145">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="19" fastest_lap="1:28.139">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:29.584">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:29.700">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:30.129">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:30.110">
+            <driver number="10">
+               <name>Pierre Gasly</name>
+               <dateofbirth>1996-02-07</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:30.712">
+            <driver number="16">
+               <name>Charles Leclerc</name>
+               <dateofbirth>1997-10-16</dateofbirth>
+               <nationality>Monegasque</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:30.733">
+            <driver number="27">
+               <name>Nico Hülkenberg</name>
+               <dateofbirth>1987-08-19</dateofbirth>
+               <nationality>German</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:31.562">
+            <driver number="8">
+               <name>Romain Grosjean</name>
+               <dateofbirth>1986-04-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:30.909">
+            <driver number="99">
+               <name>Antonio Giovinazzi</name>
+               <dateofbirth>1993-12-14</dateofbirth>
+               <nationality>Italian</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="12" name="Portuguese Grand Prix">
+         <position number="1" points="26" fastest_lap="1:18.750">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:19.345">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:19.854">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:20.408">
+            <driver number="16">
+               <name>Charles Leclerc</name>
+               <dateofbirth>1997-10-16</dateofbirth>
+               <nationality>Monegasque</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:20.551">
+            <driver number="10">
+               <name>Pierre Gasly</name>
+               <dateofbirth>1996-02-07</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:20.268">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:20.802">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:20.859">
+            <driver number="31">
+               <name>Esteban Ocon</name>
+               <dateofbirth>1996-09-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:20.906">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:20.731">
+            <driver number="5">
+               <name>Sebastian Vettel</name>
+               <dateofbirth>1987-07-03</dateofbirth>
+               <nationality>German</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="13" name="Emilia Romagna Grand Prix">
+         <position number="1" points="26" fastest_lap="1:15.484">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:15.902">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:17.552">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:17.666">
+            <driver number="26">
+               <name>Daniil Kvyat</name>
+               <dateofbirth>1994-04-26</dateofbirth>
+               <nationality>Russian</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:18.173">
+            <driver number="16">
+               <name>Charles Leclerc</name>
+               <dateofbirth>1997-10-16</dateofbirth>
+               <nationality>Monegasque</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:18.084">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:18.118">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:18.069">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:18.088">
+            <driver number="7">
+               <name>Kimi Räikkönen</name>
+               <dateofbirth>1979-10-17</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:18.794">
+            <driver number="99">
+               <name>Antonio Giovinazzi</name>
+               <dateofbirth>1993-12-14</dateofbirth>
+               <nationality>Italian</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="14" name="Turkish Grand Prix">
+         <position number="1" points="25" fastest_lap="1:39.413">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:40.392">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:39.662">
+            <driver number="5">
+               <name>Sebastian Vettel</name>
+               <dateofbirth>1987-07-03</dateofbirth>
+               <nationality>German</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:39.961">
+            <driver number="16">
+               <name>Charles Leclerc</name>
+               <dateofbirth>1997-10-16</dateofbirth>
+               <nationality>Monegasque</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:38.754">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:38.431">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:39.099">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="8" points="5" fastest_lap="1:36.806">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:39.921">
+            <driver number="18">
+               <name>Lance Stroll</name>
+               <dateofbirth>1998-10-29</dateofbirth>
+               <nationality>Canadian</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:40.677">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="15" name="Bahrain Grand Prix">
+         <position number="1" points="25" fastest_lap="1:32.864">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="2" points="19" fastest_lap="1:32.014">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:33.684">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:33.588">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:33.411">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:34.817">
+            <driver number="10">
+               <name>Pierre Gasly</name>
+               <dateofbirth>1996-02-07</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="1:32.827">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:33.352">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:34.354">
+            <driver number="31">
+               <name>Esteban Ocon</name>
+               <dateofbirth>1996-09-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:33.625">
+            <driver number="16">
+               <name>Charles Leclerc</name>
+               <dateofbirth>1997-10-16</dateofbirth>
+               <nationality>Monegasque</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="16" name="Sakhir Grand Prix">
+         <position number="1" points="25" fastest_lap="0:56.789">
+            <driver number="11">
+               <name>Sergio Pérez</name>
+               <dateofbirth>1990-01-26</dateofbirth>
+               <nationality>Mexican</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="0:57.350">
+            <driver number="31">
+               <name>Esteban Ocon</name>
+               <dateofbirth>1996-09-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="0:57.388">
+            <driver number="18">
+               <name>Lance Stroll</name>
+               <dateofbirth>1998-10-29</dateofbirth>
+               <nationality>Canadian</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="0:57.165">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="0:56.979">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="0:57.056">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="7" points="6" fastest_lap="0:57.001">
+            <driver number="26">
+               <name>Daniil Kvyat</name>
+               <dateofbirth>1994-04-26</dateofbirth>
+               <nationality>Russian</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="0:56.563">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="9" points="3" fastest_lap="0:55.404">
+            <driver number="63">
+               <name>George Russell</name>
+               <dateofbirth>1998-02-15</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="0:57.270">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+      </race>
+      <race round="17" name="Abu Dhabi Grand Prix">
+         <position number="1" points="25" fastest_lap="1:40.958">
+            <driver number="33">
+               <name>Max Verstappen</name>
+               <dateofbirth>1997-09-30</dateofbirth>
+               <nationality>Dutch</nationality>
+            </driver>
+         </position>
+         <position number="2" points="18" fastest_lap="1:41.131">
+            <driver number="77">
+               <name>Valtteri Bottas</name>
+               <dateofbirth>1989-08-28</dateofbirth>
+               <nationality>Finnish</nationality>
+            </driver>
+         </position>
+         <position number="3" points="15" fastest_lap="1:41.420">
+            <driver number="44">
+               <name>Lewis Hamilton</name>
+               <dateofbirth>1985-01-07</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="4" points="12" fastest_lap="1:41.227">
+            <driver number="23">
+               <name>Alexander Albon</name>
+               <dateofbirth>1996-03-23</dateofbirth>
+               <nationality>Thai</nationality>
+            </driver>
+         </position>
+         <position number="5" points="10" fastest_lap="1:41.964">
+            <driver number="4">
+               <name>Lando Norris</name>
+               <dateofbirth>1999-11-13</dateofbirth>
+               <nationality>British</nationality>
+            </driver>
+         </position>
+         <position number="6" points="8" fastest_lap="1:41.947">
+            <driver number="55">
+               <name>Carlos Sainz</name>
+               <dateofbirth>1994-09-01</dateofbirth>
+               <nationality>Spanish</nationality>
+            </driver>
+         </position>
+         <position number="7" points="7" fastest_lap="1:40.926">
+            <driver number="3">
+               <name>Daniel Ricciardo</name>
+               <dateofbirth>1989-07-01</dateofbirth>
+               <nationality>Australian</nationality>
+            </driver>
+         </position>
+         <position number="8" points="4" fastest_lap="1:42.474">
+            <driver number="10">
+               <name>Pierre Gasly</name>
+               <dateofbirth>1996-02-07</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="9" points="2" fastest_lap="1:42.894">
+            <driver number="31">
+               <name>Esteban Ocon</name>
+               <dateofbirth>1996-09-17</dateofbirth>
+               <nationality>French</nationality>
+            </driver>
+         </position>
+         <position number="10" points="1" fastest_lap="1:41.866">
+            <driver number="18">
+               <name>Lance Stroll</name>
+               <dateofbirth>1998-10-29</dateofbirth>
+               <nationality>Canadian</nationality>
+            </driver>
+         </position>
+      </race>
+   </races>
+</season>

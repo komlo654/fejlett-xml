@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified"> 
+    <xs:element name="RaceTable">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="race" type="raceType" minOccurs="1" maxOccurs="unbounded"></xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="raceType">
+        <xs:sequence>
+            <xs:element name="winner" type="winnerType"></xs:element>
+        </xs:sequence>
+        <xs:attribute name="racename" type="xs:string"></xs:attribute>
+        <xs:attribute name="distance" type="xs:double"></xs:attribute>
+    </xs:complexType>
+    
+    <xs:complexType name="winnerType">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="number" type="xs:integer"></xs:attribute>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<months>
+   <month id="1" name="January" count="2">
+      <driver number="11">Sergio Pérez</driver>
+      <driver number="44">Lewis Hamilton</driver>
+   </month>
+   <month id="2" name="February" count="2">
+      <driver number="63">George Russell</driver>
+      <driver number="10">Pierre Gasly</driver>
+   </month>
+   <month id="3" name="March" count="1">
+      <driver number="23">Alexander Albon</driver>
+   </month>
+   <month id="4" name="April" count="2">
+      <driver number="26">Daniil Kvyat</driver>
+      <driver number="8">Romain Grosjean</driver>
+   </month>
+   <month id="6" name="June" count="2">
+      <driver number="6">Nicholas Latifi</driver>
+      <driver number="51">Pietro Fittipaldi</driver>
+   </month>
+   <month id="7" name="July" count="2">
+      <driver number="3">Daniel Ricciardo</driver>
+      <driver number="5">Sebastian Vettel</driver>
+   </month>
+   <month id="8" name="August" count="2">
+      <driver number="77">Valtteri Bottas</driver>
+      <driver number="27">Nico Hülkenberg</driver>
+   </month>
+   <month id="9" name="September" count="4">
+      <driver number="33">Max Verstappen</driver>
+      <driver number="55">Carlos Sainz</driver>
+      <driver number="89">Jack Aitken</driver>
+      <driver number="31">Esteban Ocon</driver>
+   </month>
+   <month id="10" name="October" count="4">
+      <driver number="16">Charles Leclerc</driver>
+      <driver number="18">Lance Stroll</driver>
+      <driver number="7">Kimi Räikkönen</driver>
+      <driver number="20">Kevin Magnussen</driver>
+   </month>
+   <month id="11" name="November" count="1">
+      <driver number="4">Lando Norris</driver>
+   </month>
+   <month id="12" name="December" count="1">
+      <driver number="99">Antonio Giovinazzi</driver>
+   </month>
+</months>
