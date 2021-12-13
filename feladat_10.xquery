@@ -1,3 +1,5 @@
+(:A lekérdezés egy olyan HTML dokumentumot állít elő, amely a 2020-as csapat, illetve pilóta sorrendet.:)
+
 xquery version "3.1";
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
