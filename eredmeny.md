@@ -151,7 +151,6 @@ A lekérdezés visszaadja, hogy csapatonként az egyes pilóták hány kört tel
 xquery version "3.1";
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
-declare namespace array = "http://www.w3.org/2005/xpath-functions/array";
 declare namespace map = "http://www.w3.org/2005/xpath-functions/map";
 
 declare option output:method "json";
@@ -160,10 +159,10 @@ declare option output:indent "yes";
 declare variable $file := doc('f1.xml');
 
 declare function local:get-driverinfo($teamname as xs:string) {
-    let $driverandlaps := map:merge(for $driver in $file/RaceTable/Race/ResultsList/Result where $driver/Constructor/Name = $teamname
+    let $driverinfo := map:merge(for $driver in $file/RaceTable/Race/ResultsList/Result where $driver/Constructor/Name = $teamname
     return
        map:entry($driver/Driver/GivenName//text() || " " || $driver/Driver/FamilyName//text(), map:put(map:put(map:entry('laps', sum(for $result in $file/RaceTable/Race/ResultsList/Result where $result/Driver[@driverId = $driver/Driver/@driverId] return $result/Laps//text())), "highest rank", min(for $result in $file/RaceTable/Race/ResultsList/Result where $result/Driver[@driverId = $driver/Driver/@driverId] return $result/@position)), 'id', distinct-values(for $result in $file/RaceTable/Race/ResultsList/Result where $result/Driver[@driverId = $driver/Driver/@driverId] return $result/Driver/@driverId))))
-    return $driverandlaps 
+    return $driverinfo 
 };
 
 declare function local:get-teams(){
@@ -348,8 +347,8 @@ let $xml :=
                 {for $result in $race/ResultsList/Result where $result[@points != 0] return <position number="{$result/@position}" points="{$result/@points}" fastest_lap = "{$result/FastestLap/Time//text()}">
                     {for $key in map:keys($names) where $key = $result/@number return <driver number="{$key}">
                         <name>{map:get($names, $key)}</name>
-                        {for $key in map:keys($datesofbirth) where $key = $result/@number return <dateofbirth>{map:get($datesofbirth, $key)}</dateofbirth>}
-                        {for $key in map:keys($nationality) where $key = $result/@number return <nationality>{map:get($nationality, $key)}</nationality>}
+                        <dateofbirth>{map:get($datesofbirth, $key)}</dateofbirth>
+                        <nationality>{map:get($nationality, $key)}</nationality>
                     </driver>} 
                 </position>}
             </race>}
@@ -1687,7 +1686,6 @@ xquery version "3.1";
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
 declare namespace map = "http://www.w3.org/2005/xpath-functions/map";
-declare namespace array = "http://www.w3.org/2005/xpath-functions/array";
 declare namespace validate = "http://basex.org/modules/validate";
 
 declare option output:method "xml";
@@ -1700,7 +1698,7 @@ let $distancefromhungary := map:merge(for $race in $file/RaceTable/Race return m
 
 let $xml :=  <RaceTable>
     {for $key in map:keys($distancefromhungary) order by  map:get($distancefromhungary, $key) descending return <race racename="{$key}" distance="{map:get($distancefromhungary, $key)}">
-        {for $race in $file/RaceTable/Race where $race/RaceName = $key return <winner number="{for $result in $race/ResultsList/Result where $result[@position = 1] return xs:integer($result/@number)}">{for $result in $race/ResultsList/Result where $result[@position = 1] return $result/Driver/GivenName//text() || ' ' || $result/Driver/FamilyName//text()}</winner>}
+        {for $race in $file/RaceTable/Race where $race/RaceName = $key return <winner number="{xs:integer($race/ResultsList/Result[@position = 1]/@number)}">{$race/ResultsList/Result[@position = 1]/Driver/GivenName//text() || ' ' || $race/ResultsList/Result[@position = 1]/Driver/FamilyName//text()}</winner>}
     </race> }
 </RaceTable>
 
