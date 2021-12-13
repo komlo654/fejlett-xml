@@ -3,7 +3,7 @@
     <xs:element name="season">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="races" type="racesType" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element name="races" type="racesType"/>
             </xs:sequence>
             <xs:attribute name="year" type="xs:integer"></xs:attribute>
         </xs:complexType>
