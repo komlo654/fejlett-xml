@@ -22,8 +22,8 @@ let $xml :=
                 {for $result in $race/ResultsList/Result where $result[@points != 0] return <position number="{$result/@position}" points="{$result/@points}" fastest_lap = "{$result/FastestLap/Time//text()}">
                     {for $key in map:keys($names) where $key = $result/@number return <driver number="{$key}">
                         <name>{map:get($names, $key)}</name>
-                        {for $key in map:keys($datesofbirth) where $key = $result/@number return <dateofbirth>{map:get($datesofbirth, $key)}</dateofbirth>}
-                        {for $key in map:keys($nationality) where $key = $result/@number return <nationality>{map:get($nationality, $key)}</nationality>}
+                        <dateofbirth>{map:get($datesofbirth, $key)}</dateofbirth>
+                        <nationality>{map:get($nationality, $key)}</nationality>
                     </driver>} 
                 </position>}
             </race>}
