@@ -1,4 +1,4 @@
-(:A lekérdezés egy olyan HTML dokumentumot állít elő, amely a 2020-as csapat, illetve pilóta sorrendet.:)
+(:A lekérdezés egy olyan HTML dokumentumot állít elő, amely szemlélteti a 2020-as csapat, illetve pilóta sorrendet.:)
 
 xquery version "3.1";
 
