@@ -12,10 +12,10 @@ declare option output:indent "yes";
 declare variable $file := doc('f1.xml');
 
 declare function local:get-driverinfo($teamname as xs:string) {
-    let $driverandlaps := map:merge(for $driver in $file/RaceTable/Race/ResultsList/Result where $driver/Constructor/Name = $teamname
+    let $driverinfo := map:merge(for $driver in $file/RaceTable/Race/ResultsList/Result where $driver/Constructor/Name = $teamname
     return
        map:entry($driver/Driver/GivenName//text() || " " || $driver/Driver/FamilyName//text(), map:put(map:put(map:entry('laps', sum(for $result in $file/RaceTable/Race/ResultsList/Result where $result/Driver[@driverId = $driver/Driver/@driverId] return $result/Laps//text())), "highest rank", min(for $result in $file/RaceTable/Race/ResultsList/Result where $result/Driver[@driverId = $driver/Driver/@driverId] return $result/@position)), 'id', distinct-values(for $result in $file/RaceTable/Race/ResultsList/Result where $result/Driver[@driverId = $driver/Driver/@driverId] return $result/Driver/@driverId))))
-    return $driverandlaps 
+    return $driverinfo 
 };
 
 declare function local:get-teams(){
